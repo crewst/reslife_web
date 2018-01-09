@@ -1,0 +1,11 @@
+HTTrack3.49-2 launched on Tue, 09 Jan 2018 11:19:13 at http://www.swosu.edu/administration/reslife/
+(httrack http://www.swosu.edu/administration/reslife/ -O . -K )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 26 seconds : 94 links scanned, 93 files written (3748581 bytes overall) [3509810 bytes received at 17037 bytes/sec], 410662 bytes transferred using HTTP compression in 31 files, ratio 35%
+(No errors, 0 warnings, 0 messages)
