@@ -1,0 +1,16 @@
+/*Reset Style*/
+body {margin:0; padding:0; line-height: 1.4em; word-spacing:1px; letter-spacing:0.2px; font: 13px Arial, Helvetica,"Lucida Grande", serif; color: #000;}
+/*Remove Element*/
+.banner-focus-is-you, .band, .weather, #skip, .search-container, .colorful-divider, #begincontent, .breadcrumbs, .hide-on-desktop, .bulldog-circle  {display: none;}
+/*Add SWOSU Logo*/
+header::before {content: url(http://www.swosu.edu/images/swosu-logo.png) '\A' '(http://www.swosu.edu)'; white-space: pre;}
+/* Show URL */
+a:link, a:visited {background: transparent; color:#333; text-decoration:none;}
+a:link[href]:after, a[href]:visited:after {content: " (" attr(href) ") "; font-size: 11px;}
+a[href^="http://"] {color:#000;} 
+a[href^="https://"] {color:#000;} 
+.no-print, .top-links, nav {display: none;}
+.tan-content-box:before {content: "NOTE:  Add http://www.swosu.edu/administration/ in front of the links displayed below that don't begin with http://.";}
+.tan-content-box {clear: both;}
+.floatleft, .floatright {float: none;}
+.social-container, footer, .absfooter {display: none;}

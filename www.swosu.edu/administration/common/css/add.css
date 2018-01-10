@@ -1,0 +1,406 @@
+img {max-width: 100%; height: auto;}
+footer {clear:both;}a
+#skip a, #skip a:hover, #skip a:focus, #skip a:visited { 
+    position:absolute; 
+    left:0px; 
+    top:-500px; 
+    width:1px; 
+    height:1px; 
+    overflow:hidden;
+    background-color: #f00;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #000;
+} 
+
+#skip a:active, #skip a:focus { 
+    position: absolute;
+	top: -15px;
+	left:0px;
+    width:auto; 
+    height:auto; 
+}
+blockquote {
+    background-color:#EEEEEE;
+    border:1px solid #CCCCCC;
+    margin:3px;
+    padding:3px;
+    text-align:center;
+}
+.hide {
+    position: absolute;
+    left: 0px;
+    top: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.space-above {margin-top: 20px;}
+.spacer {width: 100%; height: 1px; clear: both;}
+.print-only {display: none;}
+.center {text-align: center;}
+.right {text-align: right;}
+.vertical-center, td.vertical-center {vertical-align: middle;}
+.indent, td.indent {padding-left: 20px;}
+.strong {font-weight: bold;}
+.underline {border-bottom: 1px solid #666;}
+em {font-style: italic;}
+.large {font-size: 1.5em; font-weight: bold;}
+.floatright{float: right; margin: 5px 0px 5px 10px;}
+.floatleft{float: left;    margin: 5px 10px 0px 5px;}
+.floatleft-20 {float: left; width: 20%;}
+.floatleft-25 {float: left; width: 25%;}
+.floatleft-30 {float: left; width: 30%;}
+.floatleft-35 {float: left; width: 35%;}
+.floatleft-40 {float: left; width: 40%;}
+.floatleft-45 {float: left; width: 45%;}
+.floatleft-50 {float: left; width: 50%;}
+@media (max-width: 767px) {
+    .floatleft, .floatright {float: none;}
+    .floatleft-20, .floatleft-25, .floatleft-30, .floatleft-35, .floatleft-40, .floatleft-45, .floatleft-50 {width: 100%; float: none;}
+}
+.margin-5 {margin: 5px;}
+.margin-10 {margin: 10px;}
+.margin-15 {margin: 15px;}
+.margin-center {margin: 0 auto;}
+.two-column {
+    -webkit-column-count: 2;
+    -webkit-column-gap:   20px;  
+    -moz-column-count:    2;
+    -moz-column-gap:      20px;
+    column-count:         2;
+    column-gap:           20px;  
+}
+p, ul, table, div, .no-break {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    break-inside: avoid;    
+}
+th {font-weight: bold;}
+
+/*Ordered List Styles*/
+.bullet-lower-alpha {list-style-type: lower-alpha;}
+.bullet-upper-alpha {list-style-type: upper-alpha;}
+.bullet-lower-roman {list-style-type: lower-roman;}
+.bullet-upper-roman {list-style-type: upper-roman;}
+.bullet-decimal {list-style-type: decimal;}
+.bullet-disc {list-style-type: disc;}
+.bullet-none {list-style-type: none;}
+/*-------------------*/
+
+.three-column {
+    -webkit-column-count: 3;
+    -webkit-column-gap:   20px;  
+    -moz-column-count:    3;
+    -moz-column-gap:      20px;
+    column-count:         3;
+    column-gap:           20px;  
+}
+.four-column {
+    -webkit-column-count: 4;
+    -webkit-column-gap:   20px;  
+    -moz-column-count:    4;
+    -moz-column-gap:      20px;
+    column-count:         4;
+    column-gap:           20px;  
+}
+.form-list {font-size: 16px;}
+.rule {
+    -webkit-column-rule: 1px solid #CFCAC0;
+    -moz-column-rule: 1px solid #CFCAC0; 
+    column-rule: 1px solid #CFCAC0;   
+}
+.red {color: #c00;}
+.green {color: #00B200;}
+.gray {background-color: #eee;}
+.dkgray {background-color:#666;}
+.blueborder {border: 1px solid #293f6f;}
+.dkblueborder {border: 1px solid #010f3c;}
+.grayborder {border: 1px solid #485D5B;}
+.goldborder {border: 1px solid #A3680C;}
+.brownborder {border: 1px solid #6C2F1C;}
+.noborder {border: 0px}
+.tablestripe {background-color: #EBEBEB;}
+.highlight {background-color: #ddd; }
+.no-stripe {background-color: none;}
+
+     /* Header Rows */
+.dkbluetablehead { color: #ffffff; font-weight: bold; font-size: 16px; font-family: verdana, arial, helvetica; background-color: #010f3c;}
+.greytablehead { color: #ffffff; font-weight: bold; font-size: 16px; font-family: verdana, arial, helvetica; background-color: #4a5c5c;}
+.dkredtablehead { color: #ffffff; font-weight: bold; font-size: 16px; font-family: verdana, arial, helvetica; background-color: #600;}
+.ltbluetablehead { color: #ffffff; font-weight: bold; font-size: 16px; font-family: verdana, arial, helvetica; background-color: #7c8bab;}
+.orangetablehead { color: #ffffff;  font-weight: bold; font-size: 16px; font-family: verdana, arial, helvetica; background-color: #cf7010;}
+.whitetablehead { color: #293f6f;  font-weight: bold; font-size: 16px; font-family: verdana, arial, helvetica; background-color: #FFFFFF;}
+.goldtablehead { color: #ffffff;  font-weight: bold; font-size: 16px; font-family: verdana, arial, helvetica; background-color: #9a6100;}
+
+.red-circle h3 {
+    width: 30px;
+    height: 30px;
+    background: #c00;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 3px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    float: left;
+}
+.red-circle p {
+    padding-left: 40px;
+}
+.red-large {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #c00;
+}
+
+/*Styles for Department Name to Replace Your Choice. Your Opportunity*/
+.banner .band {
+  font-size: 32px;
+  color: #132548;
+  position: absolute;
+  bottom: -55px;
+  left: 19px;
+  background: url(../images/tan-band-left.png) left top no-repeat, url(../images/tan-band-right.png) right top no-repeat;
+  width: auto;
+  min-width: 325px;
+  overflow: hidden;
+  height: 80px;
+  padding-left: 10px;
+  padding-right: 40px;
+  font-weight: bold;
+  z-index: 10;
+  transition: all 0.3s ease-in;
+}
+.banner .band a {
+    background: url(../images/tan-band-middle.png) left top repeat-x;
+    color: #132548;
+    height: 67px;
+    line-height: 67px;
+    margin-left: 71px;
+    text-indent: -71px;
+    display: block;
+}
+.banner .band a:hover, .banner .band a:focus {
+    color: #5d4c42;
+}
+.breadcrumbs {
+    position: relative;
+    text-align: right;
+    color: #5e5e5e;
+    font-size: 14px;
+}
+.breadcrumbs a {
+    color: #5e5e5e;
+}
+.breadcrumbs a:hover, .breadcrumbs a:focus {
+    text-decoration: underline;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .banner .band {
+    font-size: 24px;
+    padding: 0 40px 0 10px;
+  }
+  .banner .band a {
+    background: url(../images/tan-band-middle.png) left top repeat-x;
+    color: #132548;
+    height: 67px;
+    line-height: 67px;
+    margin-left: 71px;
+    text-indent: -71px;
+    padding-right: 5px;
+    display: block;
+}
+}
+.gray-button a {
+    text-decoration: none;
+    color: #713012;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    display: block;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+    background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+	color-stop(0, #CCCCCC),
+	color-stop(1, #EEEEEE)
+    );
+    background-image: -o-linear-gradient(right bottom, #CCCCCC 0%, #EEEEEE 100%);
+    background-image: -moz-linear-gradient(right bottom, #CCCCCC 0%, #EEEEEE 100%);
+    background-image: -webkit-linear-gradient(right bottom, #CCCCCC 0%, #EEEEEE 100%);
+    background-image: -ms-linear-gradient(right bottom, #CCCCCC 0%, #EEEEEE 100%);
+    background-image: linear-gradient(to right bottom, #CCCCCC 0%, #EEEEEE 100%);
+}
+.gray-button a:active, .gray-button a:visited {
+    color: #293f6f;
+    text-decoration: none;
+}
+.gray-button a:hover, .gray-button a:focus {
+    color: #293f6f;
+    border: 1px solid #bbb;
+    background-image: -webkit-gradient(
+    linear,
+    left top,
+	right bottom,
+	color-stop(0, #BBBBBB),
+	color-stop(1, #DDDDDD)
+    );
+    background-image: -o-linear-gradient(right bottom, #BBBBBB 0%, #DDDDDD 100%);
+    background-image: -moz-linear-gradient(right bottom, #BBBBBB 0%, #DDDDDD 100%);
+    background-image: -webkit-linear-gradient(right bottom, #BBBBBB 0%, #DDDDDD 100%);
+    background-image: -ms-linear-gradient(right bottom, #BBBBBB 0%, #DDDDDD 100%);
+    background-image: linear-gradient(to right bottom, #BBBBBB 0%, #DDDDDD 100%);
+
+}
+.degree-plan a {
+    text-decoration: none;
+    color: #713012;
+    width: 150px;
+    height: 35px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 35px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    display: block;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+    background-image: -webkit-gradient(
+    linear,
+    left top,
+	right bottom,
+	color-stop(0, #CCCCCC),
+	color-stop(1, #EEEEEE)
+    );
+    background-image: -o-linear-gradient(right bottom, #CCCCCC 0%, #EEEEEE 100%);
+    background-image: -moz-linear-gradient(right bottom, #CCCCCC 0%, #EEEEEE 100%);
+    background-image: -webkit-linear-gradient(right bottom, #CCCCCC 0%, #EEEEEE 100%);
+    background-image: -ms-linear-gradient(right bottom, #CCCCCC 0%, #EEEEEE 100%);
+    background-image: linear-gradient(to right bottom, #CCCCCC 0%, #EEEEEE 100%);
+}
+.degree-plan a:hover, .degree-plan a:focus {
+    color: #293f6f;
+    border: 1px solid #bbb;
+    background-image: -webkit-gradient(
+    linear,
+	left top,
+	right bottom,
+	color-stop(0, #BBBBBB),
+	color-stop(1, #DDDDDD)
+    );
+    background-image: -o-linear-gradient(right bottom, #BBBBBB 0%, #DDDDDD 100%);
+    background-image: -moz-linear-gradient(right bottom, #BBBBBB 0%, #DDDDDD 100%);
+    background-image: -webkit-linear-gradient(right bottom, #BBBBBB 0%, #DDDDDD 100%);
+    background-image: -ms-linear-gradient(right bottom, #BBBBBB 0%, #DDDDDD 100%);
+    background-image: linear-gradient(to right bottom, #BBBBBB 0%, #DDDDDD 100%);
+}
+
+
+/* --------------------------- */
+/* --------Contact Info------- */
+/* --------------------------- */
+
+.contact-info {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 70%;
+    color:#666666;
+}
+.contact-info .dept {font-size: 20px; padding: 0; margin: 0; text-align: center;}
+.contact-info span {display: block; text-align: center; font-size: 16px;}
+.contact-info span a {text-decoration: none; color: #666666;}
+.contact-info span a:hover, .contact span a:focus {text-decoration: underline;}
+@media (min-width: 675px) {
+    .contact-info span {display: inline-block; width: 33%;}
+}
+/******End Contact Info***********/
+#commercial a {
+    width: 45px;
+	height: 40px;
+	background: url(../images/commercial.png) left top no-repeat;
+	text-indent: -5000px;
+	border: none;
+	overflow: hidden;
+	display: block;
+}
+/*styles for Acrobat Reader download link*/
+#reader a{
+  width: 112px;
+  height: 33px;
+  position: relative;
+  background: url(../images/acrobat-reader.gif) top left no-repeat;
+  text-indent: -5000px;
+  float: right;
+  margin: 5px;
+  display: block;
+}
+#downloads a{
+  width: 115px;
+  height: 16px;
+  border: 1px dashed #ccc;
+  background: url(../images/arrow-download.jpg) center left no-repeat;
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+  margin: 5px;
+  padding: 3px;
+  text-decoration: none;
+}
+
+/**********Residence Life Homepage*****************/
+#links {
+       width: 600px;
+       height: 223px;
+       position: relative;
+}
+#tab-links{
+    width: 600px;
+	height: 223px;
+        background: url(../../reslife/images/buttons1.jpg) top left no-repeat;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+#tab-links li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	position: absolute;
+}
+#tab-links li, #tab-links a{
+	height: 221px;
+        width: 116px;
+	display: block;
+}
+#rj{left: 0px; text-indent: -5000px; overflow: hidden;}
+#neff{left: 120px; text-indent: -5000px; overflow: hidden;}
+#stewart{left: 240px; text-indent: -5000px; overflow: hidden;}
+#oklahoma{left: 360px; text-indent: -5000px; overflow: hidden;}
+#apartments{left: 482px; text-indent: -5000px; overflow: hidden;}
+#rj a:hover, #rj a:focus {background: transparent url(../../reslife/images/buttons1.jpg) 0px -223px no-repeat;}
+#neff a:hover, #neff a:focus {background: transparent url(../../reslife/images/buttons1.jpg) -120px -223px no-repeat;}
+#stewart a:hover, #stewart a:focus {background: transparent url(../../reslife/images/buttons1.jpg) -240px -223px no-repeat;}
+#oklahoma a:hover, #oklahoma a:focus {background: transparent url(../../reslife/images/buttons1.jpg) -360px -223px no-repeat;}
+#apartments a:hover, #apartments a:focus {background: transparent url(../../reslife/images/buttons1.jpg) -482px -223px no-repeat;}
+
