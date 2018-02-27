@@ -1,4 +1,67 @@
 @charset "UTF-8";
+
 /* SWOSU Residence Life & Housing Unique Stylesheet */
 /* Tuesday, February 27, 2018 */
 
+
+/* UNIVERSAL STRUCTURE */
+div.rlh-left-float-content {
+	float: left;
+	display: inline;
+	width: 55%;
+}
+
+div.rlh-right-float-content {
+	float: right;
+	display: inline;
+	width: 230px;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 5px;
+	padding: 10em 5px 5px 5px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+	margin: 0 0 10px 10px;
+	overflow: hidden;
+}
+
+td.rlh-table-nopadding {
+	padding: 0 5px 0 5px;
+	margin: 6px;
+}
+
+table.rlh-right-float-content-table {
+	width: 100%;
+}
+
+
+/* UNIQUE ELEMENTS */
+#rlh-apartments-right-float-content {
+	background-image: url(http://swosu.edu/administration/reslife/images/apartments.jpg);	
+}
+
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 460px) {
+	
+	div.rlh-right-float-content {
+		display: block;
+		float: none;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 270px) {
+	
+	div.rlh-right-float-content {
+		width: 100%;
+		display: block;
+		float: none;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+}
+
+
+/* S.D.G. */
