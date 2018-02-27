@@ -25,14 +25,20 @@ div.rlh-right-float-content {
 	overflow: hidden;
 }
 
-td.rlh-table-nopadding {
+td.rlh-td-nopadding {
 	padding: 0 5px 0 5px;
 	margin: 6px;
 }
 
-table.rlh-right-float-content-table {
-	width: 100%;
+tr.rlh-tr-noshading, tr.rlh-tr-noshading:hover {
+	background-color: transparent;
 }
+
+table.rlh-right-float-content-table {
+	
+}
+
+
 
 
 /* UNIQUE ELEMENTS */
