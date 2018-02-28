@@ -5,24 +5,30 @@
 
 
 /* UNIVERSAL STRUCTURE */
-div.rlh-left-float-content {
-	float: left;
-	display: inline;
-	width: 55%;
+div.rlh-div-card {
+	background-color: white;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 10px;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
-div.rlh-right-float-content {
+div.rlh-div-vspacing {
+	margin-bottom: 20px;
+}
+
+div.rlh-div-right-float-content {
 	float: right;
 	display: inline;
 	width: 230px;
-	background-color: white;
-	background-repeat: no-repeat;
-	background-size: contain;
-	border-radius: 5px;
 	padding: 10em 5px 5px 5px;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 	margin: 0 0 10px 10px;
 	overflow: hidden;
+}
+
+table.rlh-table-fullwidth {
+	width: 100%;
 }
 
 td.rlh-td-nopadding {
@@ -30,15 +36,81 @@ td.rlh-td-nopadding {
 	margin: 6px;
 }
 
+th.rlh-th-nopadding {
+	padding: 0 5px 0 5px;
+	margin: 6px;
+}
+
+td.rlh-td-rightborder {
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+	padding-right: 10%;
+}
+
+td.rlh-td-leftborder {
+	padding-left: 10%;
+}
+
+td.rlh-td-strong {
+	font-weight: 600;
+}
+
 tr.rlh-tr-noshading, tr.rlh-tr-noshading:hover {
 	background-color: transparent;
 }
 
-table.rlh-right-float-content-table {
-	
+li.rlh-li-nomargin {
+	margin-left: 16px;
 }
 
 
+/* CONTACT.HTML */
+div.rlh-contacts-div-card {
+	background-position: right bottom;
+	padding-bottom: 1px;
+}
+
+div.rlh-contacts-div-left {
+	width: 60%;
+}
+
+div.rlh-contacts-div-card-small {
+	display: inline-block;
+	width: 48%;
+	margin: 0 5px 20px 5px;
+	background-position: right -20px bottom;
+	padding-bottom: 0;
+}
+
+div.rlh-contacts-div-card td.rlh-td-nopadding {
+	margin-bottom: 0;
+}
+
+div.rlh-contacts-div-card table, div.rlh-contacts-div-card th.rlh-th-nopadding {
+	margin-top: 5px;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+h2.rlh-contacts-h2-large {
+	font-size: 24pt;
+}
+
+h3.rlh-contacts-h3-large {
+	text-transform: none;
+	font-size: 20pt;
+	font-weight: 600;
+	
+}
+
+h4.rlh-contacts-h4-large {
+	font-weight: 100;
+	font-size: 14pt;
+	text-transform: uppercase;
+	line-height: 14pt;
+	text-indent: none;
+	margin: 0px;
+	margin-bottom: 5px;
+}
 
 
 /* UNIQUE ELEMENTS */
@@ -46,11 +118,102 @@ table.rlh-right-float-content-table {
 	background-image: url(http://swosu.edu/administration/reslife/images/apartments.jpg);	
 }
 
+#rlh-bkh-right-float-content {
+	background-image: url(http://swosu.edu/administration/reslife/images/black-kettle/bk-exterior.jpg);	
+}
+
+/* contact.html */
+#rlh-contacts-div-cmartin {
+	background-image:url(../../reslife/images/staff/cmartin.png)	
+}
+
+#rlh-contacts-div-jbarr {
+	background-image:url(../../reslife/images/staff/jbarr.png)	
+}
+
+#rlh-contacts-div-scatchings {
+	background-image:url(../../reslife/images/staff/scatchings.png)	
+}
+
+#rlh-contacts-div-bkh {
+	background-image:url(../../reslife/images/staff/abane_bk.png);
+	background-position: right -35px top;
+}
+
+#rlh-contacts-div-jh {
+	background-image:url(../../reslife/images/staff/abane_jeff2.png);
+	background-position: right -50px top;
+}
+
+#rlh-contacts-div-mh {
+	background-image:url(../../reslife/images/staff/abane_jeff2.png);
+	background-position: right -50px top;	
+}
+
+#rlh-contacts-div-nh {
+	background-image:url(../../reslife/images/staff/coller.png);
+	background-position: right -7px top;
+}
+
+#rlh-contacts-div-oh {
+	background-image:url(../../reslife/images/staff/hgraham.png);
+	background-position: right -57px top;
+}
+
+#rlh-contacts-div-sh {
+	background-image:url(../../reslife/images/staff/vfeldkamp.png);
+	background-position: right -4px top;
+}
+
+#rlh-contacts-div-grainey {
+	background-image:url(../../reslife/images/staff/grainey.png)	
+}
+
+#rlh-contacts-div-tcrews {
+	background-image:url(../../reslife/images/staff/tcrews.png)	
+}
+
+#rlh-contacts-div-adanforth {
+	background-image:url(../../reslife/images/staff/adanforth.png);
+	background-position: right -40px bottom;
+}
+
+#rlh-contacts-div-cfischer {
+	background-image:url(../../reslife/images/staff/cfischer.png)	
+}
+
+#rlh-contacts-div-jolson {
+	background-image:url(../../reslife/images/staff/jolson.png)	
+}
+
+#rlh-contacts-div-pwaldrop {
+	background-image:url(../../reslife/images/staff/pwaldrop.png)	
+}
+
 
 /* RESPONSIVENESS */
 @media screen and (max-width: 460px) {
 	
-	div.rlh-right-float-content {
+	div.rlh-div-right-float-content {
+		display: block;
+		float: none;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	
+	div.rlh-contacts-div-card {
+		background-image: none !important;
+	}
+	
+	div.rlh-contacts-div-left {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 270px) {
+	
+	div.rlh-div-right-float-content {
+		width: 100%;
 		display: block;
 		float: none;
 		margin: auto;
@@ -58,14 +221,31 @@ table.rlh-right-float-content-table {
 	}
 }
 
-@media screen and (max-width: 270px) {
-	
-	div.rlh-right-float-content {
+@media screen and (min-width: 768px) and (max-width: 800px) {
+	div.rlh-contacts-div-card-small {
+		margin-left: 0;
+		margin-right: 0;
 		width: 100%;
-		display: block;
-		float: none;
-		margin: auto;
-		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	div.rlh-contacts-div-card-small {
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+	
+	#rlh-contacts-div-bkh, #rlh-contacts-div-jh, #rlh-contacts-div-mh, #rlh-contacts-div-nh, #rlh-contacts-div-oh, #rlh-contacts-div-sh {
+		background-image: none;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	td.rlh-td-nopadding {
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	word-break: break-all;
 	}
 }
 
