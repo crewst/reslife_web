@@ -18,6 +18,12 @@ div.rlh-div-vspacing {
 	margin-bottom: 20px;
 }
 
+div.rlh-div-left-float-content {
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+}
+
 div.rlh-div-right-float-content {
 	float: right;
 	display: inline;
@@ -25,6 +31,15 @@ div.rlh-div-right-float-content {
 	padding: 10em 5px 5px 5px;
 	margin: 0 0 10px 10px;
 	overflow: hidden;
+}
+
+iframe.rlh-iframe-full {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+	width: 100%;
+	height: 600px;
+	padding: 5px;
 }
 
 table.rlh-table-fullwidth {
@@ -242,7 +257,7 @@ h4.rlh-contacts-h4-large {
 }
 
 @media screen and (max-width: 300px) {
-	td.rlh-td-nopadding {
+	td.rlh-td-nopadding, li.rlh-li-nomargin {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	word-break: break-all;
