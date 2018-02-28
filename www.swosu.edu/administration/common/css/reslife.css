@@ -128,6 +128,79 @@ h4.rlh-contacts-h4-large {
 }
 
 
+/* INDEX.HTML */
+div.rlh-index-div-slideshow {
+	width: 100%;
+	height: 370px;
+}
+
+ul.rlh-index-ul-slideshow {
+	list-style: none;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	left: -300px;
+}
+
+li.rlh-index-li-slideshow {
+	display: inline-block;
+	width: 600px;
+	position: absolute;
+	margin: auto;
+}
+
+li.rlh-index-li-slideshow:nth-child(1) {
+	animation: fade 20s 16s infinite;
+	z-index: 10;
+}
+
+li.rlh-index-li-slideshow:nth-child(2) {
+	animation: fade 20s 12s infinite;
+	z-index: 10;
+}
+
+li.rlh-index-li-slideshow:nth-child(3) {
+	animation: fade 20s 8s infinite;
+	z-index: 10;
+}
+
+li.rlh-index-li-slideshow:nth-child(4) {
+	animation: fade 20s 4s infinite;
+	z-index: 10;
+}
+
+li.rlh-index-li-slideshow:nth-child(5) {
+	animation: fade 20s 0s infinite;
+	z-index: 10;
+}
+
+img.rlh-index-img-slideshow {
+	width: 100%;
+	height: 370px;
+	object-fit: cover;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 1;
+	}
+	10% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 0;
+	}
+	90% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
 /* UNIQUE ELEMENTS */
 #rlh-apartments-right-float-content {
 	background-image: url(http://swosu.edu/administration/reslife/images/apartments.jpg);	
@@ -223,6 +296,10 @@ h4.rlh-contacts-h4-large {
 	div.rlh-contacts-div-left {
 		width: 100%;
 	}
+	
+	div.rlh-index-div-slideshow, img.rlh-index-img-slideshow {
+		height: 180px;
+	}
 }
 
 @media screen and (max-width: 270px) {
@@ -261,6 +338,17 @@ h4.rlh-contacts-h4-large {
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	word-break: break-all;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	ul.rlh-index-ul-slideshow {
+		text-align: left;
+		left: 0;
+	}
+	
+	li.rlh-index-li-slideshow {
+		width: 100%;
 	}
 }
 
